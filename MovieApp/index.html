@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="main-title-text">
+    <h1 id="title"> My Favorite Movies</h1>
+
+    <form id="input-container">
+        <div class="form grp">
+        <label for="title-input">Title</label>
+        <input type="text" id="tinput",name="title-input">
+    </div>
+
+    <div class="form grp">
+        <label for="rating-input">Rating</label>
+        <input type="number" id="rinput", name="rating-input">
+    </div>
+
+    <div class="form grp">
+        <button id="btn">Submit</button>
+    </div>
+   
+    </form>
+    </div>
+
+    <table class="main-table">
+        <thead class="thead">
+            <tr>
+                <th id="title table">Title</th>
+                <th id="rating table">Rating</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody id="movie-table-body">
+
+        </tbody>
+    </table>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

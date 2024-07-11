@@ -1,0 +1,71 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+.main-title-text{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+
+
+}
+
+form{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px 0;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+label{
+    display: flex;
+    flex-direction: top;
+    justify-content: left;
+}
+.main-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.main-table th, .main-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.main-table th {
+    background-color: #f2f2f2;
+}
+
+.main-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.main-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+input:hover{
+    border: 2.5px solid saddlebrown;
+}
